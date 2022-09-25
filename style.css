@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #C689C6;
+    color: white;
+}
+.container{
+    margin-top: 5rem;
+    text-align: center;
+}
+.heading{
+    letter-spacing: 12px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+}
+.heading span{
+    display: block;
+    letter-spacing: 8px;
+}
+.bill_container{
+    width: 80rem;
+    background-color: white;
+    height: 500px;
+    border-radius: 20px;
+    margin: 4rem auto 0 auto;
+    display: flex;
+}
+.input_section, .bill_title, .input_container, .tip, .people_tag{
+    background-color: aliceblue;
+}
+.input_section{
+    width: 50%;
+    color: black;
+    text-align: initial;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: 'Cutive Mono', monospace !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.display_section{
+    width: 50%;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.bill_title{
+    color: black;
+}
+input{
+    border: 1px solid hsl(168, 100%, 99%);
+    background-color: hsl(168, 100%, 99%);
+    padding: 8px;
+    width: 85%;
+    margin: 10px 0;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+input:focus{
+    outline: none;
+    border: 1.5px solid #A6D1E6;
+}
+
+.input_container{
+    margin: 3rem 2rem 1rem 5rem;
+}
+
+.tip{
+    margin-top: 2rem;
+    color: black;
+    margin-bottom: 0.8rem;
+}
+.btn_tip{
+    border: 1px solid hsl(168, 100%, 99%);
+    padding: 12px 5px;
+    margin: 0 0 0.8rem 0;
+    font-size: 1.1rem;
+    width: 25%;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+}
+.people_tag{
+    margin-top: 2rem;
+    color: black;
+    margin-bottom: 0.8rem;
+}
+
+#amount{
+    padding: 15px 45px 15px 18px;
+    width: 76%;
+}
+
+#people{
+    background-image: url(./images/man.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: center;
+    background-position-x: 10px;
+    padding: 15px 45px;
+    width: 72%;
+}
